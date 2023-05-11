@@ -1,1 +1,3 @@
-# airbnbrooms.smartcontract
+In this smart contract, the Airbnb contract allows renters to book 10 different rooms per day for a set price. The contract owner sets the total number of rooms and the price per room per day when deploying the contract.
+
+Renters can book a room by calling the bookRoom function and providing the room number, check-in date, and check-out date. The function checks that the specified room is available and that the renter has provided enough funds to pay for the booking. If the booking is successful, the room's status is set to occupied, and the occupant's address, check-in date, and check-out date are recorded.
